@@ -21,8 +21,7 @@ A bash script to monitor and log CPU, RAM, and storage usage on a Linux system. 
 
 Clone the repository to your local machine:
 ```sh
-git clone https://github.com/yourusername/system-monitor.git
-cd system-monitor
+https://github.com/Muqadas-fiaz/run_bash_script_via_crontab.git
 ```
 ### 2. Install Dependencies
 
