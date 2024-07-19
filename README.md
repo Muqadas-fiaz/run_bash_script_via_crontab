@@ -42,9 +42,14 @@ chmod +x system_monitor.sh
 
 ### 4. Setup Log Directory and Permissions
 
-Ensure the log directory exists and set the appropriate permissions```sh
+Ensure the log directory exists and set the appropriate permissions
+```sh
 sudo mkdir -p /var/log
+```
+```sh
 sudo touch /var/log/system_monitor.log
+```
+```sh
 sudo chown $USER:$USER /var/log/system_monitor.log
 ```
 **Usage**
