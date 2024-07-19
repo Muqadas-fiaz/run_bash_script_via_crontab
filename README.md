@@ -71,9 +71,9 @@ crontab -e
 
 Add the following line to run the script every 2 minutes:
 ```sh
-*/2 * * * * /path/to/system_monitor.sh
+*/2 * * * * /home/muqadas/system_monitor.sh
 ```
-Replace /path/to/system_monitor.sh with the actual path to the script.
+/home/muqadas/system_monitor.sh the the actual path to the script.you can find out your path by using pwd
 ```sh
 crontab -l
 ```
