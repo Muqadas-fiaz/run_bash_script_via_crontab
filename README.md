@@ -68,3 +68,9 @@ Add the following line to run the script every 2 minutes:
 */2 * * * * /path/to/system_monitor.sh
 ```
 Replace /path/to/system_monitor.sh with the actual path to the script.
+```sh
+crontab -l
+```
+```sh
+cat /var/log/system_monitor.log
+```
